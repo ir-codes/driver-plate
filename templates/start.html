@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script>
+var lyft_id = getCookie('lyft_id');
+if(lyft_id) {
+  window.location.href = '/qr/' + lyft_id;
+} else {
+  window.location.href = '{{ auth_url }}';
+}
+</script>
+{% endblock %}

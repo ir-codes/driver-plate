@@ -1,0 +1,12 @@
+access_token: Xc4SEzcpD/QONXcJ+LDnL3OmoEtoitPGfC6y8r9MFpdvkMuUV/n/HEZo7bbBEu2jn7HTOjSEYVALY/d9SfI5dDoIVZdOtuddoO8Qj08XSeu56htliXVttdI=
+client_id: 22NK0yKWqyZU
+client_secret: SANDBOX-O3VVU6mxRwN1Jhk52QK22FezFyS9WHSN
+expires_in_seconds: 1556078985
+grant_type: authorization_code
+refresh_token: YQGHV9Ah1q9IZbqzEfMemdq85TE7RGfDlL6ERUAY401DpJMUw53uGa4xlK603TYznuoz32RsF1UFAPSd0AVvnpnKCRC/iZ5WoCJkdwbHMR3H
+scopes:
+- offline
+- rides.read
+- rides.request
+- public
+- profile

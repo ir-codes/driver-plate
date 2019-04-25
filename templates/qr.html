@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block extraHead %}
+<style>
+.qrcode {
+  width: 100%;
+  max-width: 600px;
+}
+
+.qrcode-block {
+  text-align: center;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+  <div class="qrcode-block">
+    <img class="qrcode" src="{{ qrcode(lyft_id|safe) }}" />
+  </div>
+{% endblock %}
+
+<script>
+  setCookie('lyft_id', '{{lyft_id|safe}}', 7);
+</script>
+

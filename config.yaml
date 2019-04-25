@@ -1,0 +1,8 @@
+client_id: 22NK0yKWqyZU
+client_secret: O3VVU6mxRwN1Jhk52QK22FezFyS9WHSN
+scopes:
+    - public
+    - rides.read
+    - offline
+    - profile
+    - rides.request
